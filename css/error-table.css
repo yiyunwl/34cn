@@ -1,0 +1,68 @@
+/* 标签页导航 */
+
+.tab-page{
+    width:240px;
+    height: 1000px;
+    border: 1px solid #e8e8e8;
+    padding-top: 90px;
+    float: left;
+    text-align: center;
+    
+}
+
+.tab-page a{
+    margin-bottom: 36px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tab-content{
+    float: left;
+    width: 1070px;
+    border: 1px solid #e8e8e8;
+    height: 1000px;
+}
+
+/* /标签页导航 */
+
+/* 标签页内容 */
+.tab-content .table .error-table-title{
+    height: 108px;
+    float: left;
+}
+.tab-content .table .error-table-title h3{
+    margin-top: 40px;
+}
+.tab-content .table .error-table-title span{
+    display: inline-block;
+    width:4px;
+    height: 22px;
+    background-color: #0046a1;
+    margin: 0 14px;
+}
+
+.tab-content .table .error-table{
+    float: left;
+    margin: 0 40px;
+}
+.error-table-line{
+    height:1px;
+    clear:both;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.error-table{
+    float: left;
+    margin: 0 40px;
+}
+.error-table table th{
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+}
+.error-table table tr{
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+}

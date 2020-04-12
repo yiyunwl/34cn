@@ -1,0 +1,134 @@
+/* 八大平台认证 */
+
+.authentication{
+    height: 800px;
+}
+
+.authentication-p{
+    margin-bottom: 60px;
+}
+.union{
+    text-align: center;
+}
+
+.union-box{
+    background-image: url('../images/yuan.png');
+    width:578px;
+    height:578px;
+    display: inline-block;
+    position: relative;
+}
+
+.union-box-list{
+    display:inline-block;
+    width: 154px;
+    height:154px;
+    background:#fff;
+    border: 1px solid #999;
+    border-radius: 77px;
+    align-content: center;
+}
+
+.union-box-list-hover{
+    
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+}
+
+.union-box-list:hover .union-box-list-hover{
+    display: block;
+    z-index: 1;
+}
+
+.union-box-list-hover h3{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.union-box-list-p{
+    text-align: center;
+    margin:20px 0;
+}
+
+/* /八大平台认证 */
+
+/* 移动平台展示 */
+.move{
+    height: 840px;
+    
+}
+
+.move-title{
+    padding-top: 66px;
+    text-align: center;
+}
+
+.move-button{
+    float: left;
+}
+.move-button .move-button-list{
+    float: left;
+    margin-left: 60px;
+    width: 340px;
+}
+ .move-button-list button{
+    width: 340px;
+    height: 74px;
+    color: #fff;
+    background-color: blue;
+    border-radius: 10px;
+}
+.move-button .move-button-list .move-button-list-border{
+    background-color:#fff;
+    border: 1px solid blue;
+    color: black;
+}
+.move-button-information{
+    margin: 60px;
+    float: left;
+}
+.move-button-information div{
+    float: left;
+}
+
+
+/* /移动平台展示 */
+
+
+/* 安全联盟认证购买套餐 */
+
+.set_meal{
+    clear: both;
+    height: 650px;
+    background-color: #f9f8fd;
+    padding-top: 20px;
+}
+
+.set-meal-title{
+    text-align: center;
+}
+
+.set-meal-title h4{
+    margin-top: 60px;
+}
+
+.set-meal-content img{
+    display: inline-block;
+}
+
+.set-meal-content li{
+    float: left;
+    margin-right: 260px;
+}
+.set-meal-content li div{
+    margin-top: 20px;
+}
+
+.set_meal-frame{
+    clear: both;
+    width: 100%;
+    height: 126px;
+    border: 1px solid #999;
+}
+/* /安全联盟认证购买套餐 */

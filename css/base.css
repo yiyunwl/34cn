@@ -1,0 +1,80 @@
+#nav {
+  background: transparent;
+  border: none;
+  height: 80px;
+  transition: all 0.3s;
+}
+
+#nav .navbar-brand {
+  height: 80px;
+  padding-top: 24px;
+  animation: hinge 2s;
+}
+
+#banner .one span {
+  position: relative;
+  top: 110px;
+  padding: 0;
+}
+
+#banner .two h1 {
+  position: relative;
+  margin: 0 0 30px;
+}
+
+#banner .three p {
+  position: relative;
+  bottom: 130px;
+}
+
+#banner .one-s span {
+  position: relative;
+  top: 110px;
+  padding: 0;
+}
+
+#banner .two-s h1 {
+  position: relative;
+  margin: 0 0 30px;
+}
+
+#banner .three-s p {
+  position: relative;
+  bottom: 130px;
+}
+
+#banner .one{
+  animation: fadeInLeft 2s;
+}
+
+#banner .two{
+  animation: fadeInRight 2s;
+}
+
+#banner .three{
+  animation: fadeInLeft 2s;
+}
+
+#banner .one-s{
+  animation: bounceInUp 2s;
+}
+
+#banner .two-s{
+  animation: zoomIn 2s;
+}
+
+#banner .three-s{
+  animation: bounceInDown 2s;
+}
+
+@media screen and (min-width: 768px) {
+  #nav a {
+    color: #fff;
+    padding-top: 30px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+}
+
